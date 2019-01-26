@@ -17,9 +17,10 @@
             android:id="@+id/text1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/text2"
-            android:layout_centerHorizontal="true"
-            android:text="반가워요 00님!"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="112dp"
+            android:text="반가워요"
             android:textColor="@android:color/black"
             android:textSize="20dp" />
 
@@ -31,6 +32,27 @@
             android:layout_centerHorizontal="true"
             android:text="어떤 동물을 키우고 계세요?"
             android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/textView17"
+            android:text="이름"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="127dp"
+            android:text="님!"
+            android:textColor="#000000"
             android:textSize="20dp" />
 
     </RelativeLayout>

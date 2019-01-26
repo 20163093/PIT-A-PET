@@ -29,7 +29,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/animalText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/nameText"
         android:layout_marginStart="-133dp"
-        android:layout_toEndOf="@+id/textView8"
+        android:layout_toEndOf="@+id/animalText"
         android:text="은(는)"
         android:textColor="#000000"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
@@ -97,8 +97,9 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/nameText"
+        android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/speciesText"
+        android:layout_marginStart="57dp"
         android:text="종"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="25dp" />
