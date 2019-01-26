@@ -6,18 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class AnimalSelectActivity extends AppCompatActivity {
+public class InfoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animal_select);
+        setContentView(R.layout.activity_info);
 
-        Button button = (Button)findViewById(R.id.nextButton);
+        Button button = (Button)findViewById(R.id.completeButton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), InfoActivity.class);
+                Intent intent = new Intent(getApplicationContext(), LoadingActivity.class);
                 startActivity(intent);
             }
         });
